@@ -36,11 +36,6 @@ public class Client {
         this( ManagedChannelBuilder.forAddress(host, port)
                 .usePlaintext() );
     }
-
-    Client(ManagedChann
-        return resp.getId();
-    }
-
     public String formatId(long id){
         LeafResp req = LeafResp.newBuilder().setId(id).build();
         LeafMsg resp = blockingStub.idPar(req);
