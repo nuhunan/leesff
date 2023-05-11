@@ -16,8 +16,6 @@
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import org.paboo.leaf.proto.LeafReq;
-import org.paboo.leaf.proto.LeafResp;
 import org.paboo.leaf.proto.LeafMsg;
 import org.paboo.leaf.proto.LeafServiceGrpc;
 
