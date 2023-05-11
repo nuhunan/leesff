@@ -20,12 +20,7 @@
         </license>
     </licenses>
 
-    <developers>
-        <developer>
-            <name>Leonard Woo</name>
-            <email>leo_916 at yahoo dot com</email>
-        </developer>
-    </developers>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
