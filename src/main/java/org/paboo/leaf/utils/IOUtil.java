@@ -37,16 +37,6 @@ public class IOUtil {
         return new BufferedInputStream(new FileInputStream(filepath));
     }
 
-    /**
-     * Get file stream
-     *
-     * @param file File object
-     * @return File input stream
-     * @throws FileNotFoundException File not found
-     */
-    public static InputStream getStream(File file) throws FileNotFoundException {
-        return new BufferedInputStream(new FileInputStream(file));
-    }
 
     /**
      * Load string to reader
