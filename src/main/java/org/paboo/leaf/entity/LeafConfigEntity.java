@@ -37,11 +37,4 @@ public class LeafConfigEntity {
 //        this.workerId = 1;
 //    }
 
-    @Override
-    public String toString() {
-        return "LeafConfigEntity{" +
-                "port=" + port +
-                ", timeOffset=" + timeOffset +
-                '}';
-    }
 }
